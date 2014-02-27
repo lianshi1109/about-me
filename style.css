@@ -1,0 +1,138 @@
+/* YUI RESET */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,select,p,blockquote,th,td{margin:0;padding:0}table{border-collapse:collapse;border-spacing:0}fieldset,img{border:0}address,button,caption,cite,code,dfn,em,input,optgroup,option,select,strong,textarea,th,var{font:inherit}del,ins{text-decoration:none}li{list-style:none}caption,th{text-align:left}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal}q:before,q:after{content:''}abbr,acronym{border:0;font-variant:normal}sup{vertical-align:baseline}sub{vertical-align:baseline}legend{color:#000}
+
+html{color:#333;}
+body{background:#333;font:12px "Microsoft YaHei","Lucida Grande","Lucida Sans Unicode",Helvetica,Arial,Verdana,sans-serif;}
+a{color:#333;text-decoration:none;}
+
+.block{display:block;}
+.clearfix{zoom:1;}
+.clearfix:after{display:block;content:"";clear:both;height:0;}
+.floatL{float:left;}
+.floatR{float:right;}
+.wrapper{width:1000px;margin:0 auto;position:relative;}
+
+a, #projects p, #projects img{
+	-moz-transition:0.2s ease all;
+	-webkit-transition:0.2s ease all;
+	-o-transition:0.2s ease all;
+}
+
+/*=index
+------------------------------------------------------------------------*/
+#about{
+	background:#fff;
+}
+#about a:hover{
+	color:#f90;
+}
+#avatar{
+	width:500px;
+	height:500px;
+}
+#profile{
+	position:absolute;
+	text-align:right;
+	right:0;
+}
+#profile img{
+	width:16px;
+	height:16px;
+}
+
+#upAndDown{
+	color:#666;
+	display:block;
+	font-size:20px;
+	width:185px;
+	margin:20px auto 30px;
+	outline: none;
+}
+#upAndDown:hover{
+	color:#999;
+}
+#arrow{
+	background:#666;
+	vertical-align:middle;
+	margin-top:-6px;
+	width: 30px;
+	height: 26px;
+	-webkit-transition: all .6s ease;
+	-moz-transition: all .6s ease;
+	-ms-transition: all .6s ease;
+	-o-transition: all .6s ease;
+	transition: all .6s ease;
+}
+#arrow.rotated{
+	-webkit-transform: rotate(180deg);
+	-moz-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+#upAndDown:hover #arrow{
+	background:#999;
+}
+#projects img{
+	width: 248px;
+	height: 149px;
+}
+#projects a{
+	border:1px solid #000;
+	display:block;
+	float:left;
+	position:relative;
+	overflow:hidden;
+	width:248px;
+	height:149px;
+}
+#projects a:hover img{
+	opacity:0.3;
+}
+#projects p{
+	background:rgba(255, 255, 255, 0.7);
+	font-size:16px;
+	font-weight:bold;
+	text-align:right;
+	text-shadow:0 0 9px #999;
+	position:absolute;
+	padding:10px;
+	width:228px;
+	left:0;
+	bottom:-50px;
+}
+#projects a:hover p{
+	bottom:0;
+}
+
+#copyright{
+	color:#ccc;
+	font-size:12px;
+	position:absolute;
+	bottom:10px;
+	left:412px;
+}
+#copyright a{
+	color:#ccc;
+	text-decoration:underline;
+}
+
+.color-sep{
+	background:url(bgline.png);
+	height:4px;
+}
+
+#me h1{
+	font-size:30px;
+	font-weight:bold;
+}
+#me h2{
+	color:#999;
+}
+#me ul{
+	font-size:14px;
+	margin:20px 0;
+}
+#me ul img{
+	vertical-align:bottom;
+}

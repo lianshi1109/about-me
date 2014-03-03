@@ -32,7 +32,7 @@ a, #projects p, #projects img{
 	position:absolute;
 	text-align:right;
 	right:0;
-	top:200px;
+	top:20px;
 }
 #profile img{
 	width:16px;

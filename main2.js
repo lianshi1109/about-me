@@ -34,10 +34,3 @@ function init() {
 }
 $(document).ready(init);
 
-
-
-
-ga('create', 'UA-24680734-2', 'thec.me');
-ga('require', 'linkid', 'linkid.js');
-ga('send', 'pageview');
-

@@ -32,7 +32,14 @@
 		font-style: normal;
 		font-weight: 400;
 	}
-	
+	.top {
+		width: 320px;
+		height: 220px;
+		float: left;
+		text-align: top;
+		line-height: 220px;
+		margin: 0px 50px 0px 0px;
+	}
 	.left {
 		width: 320px;
 		height: 220px;
